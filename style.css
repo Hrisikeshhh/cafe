@@ -1,0 +1,1346 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+        position: relative;
+        height: 100%;
+      }
+  nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+  }
+
+.leftNav{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.midNav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.rightNav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 138%;
+    color: #fa3b3b;
+}
+
+
+  .logo{
+    background-image: url(logo/logo.modified.jpg);
+    width: 19%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .listItems{
+    display: flex;
+    align-items: center;
+    width: 76%;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+.items a{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+  .items a:hover{
+    color: #e21616;
+    transition: 0.3s ease ;
+    font-size: 100%;
+    font-size: 125%;
+    cursor: pointer;
+  }
+
+  .home{
+    text-decoration: 4px solid red underline;
+
+  }
+
+  
+
+
+  #firstSec{
+    height: 90vh;
+  }
+
+   /* swiper */
+   body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+       .swiper-container {
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        overflow-x: hidden;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+         z-index: 0;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        overflow-x: hidden;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+         z-index: 0;
+         overflow-x: hidden;
+      }
+
+      .swiper-container {
+        margin-left: auto;
+        margin-right: auto;
+         z-index: 0;
+         overflow-x: hidden;
+      }
+
+      #one{
+        background-image:url(foodPics/hero.png.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+      }
+
+
+      .left{
+        width: 50%;
+        color: white;
+      }
+
+      .right{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .right img{
+        width: 38%;
+        border-radius: 76px;
+      }
+
+      #heroHead{
+        font-size: 275%;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 4%;
+      }
+
+      #heroLetter{
+        width: 57%;
+       margin: auto;
+       font-size: 116%;
+         
+      }
+
+      #heroBtn{
+        padding: 2%;
+       color: red;
+       border-radius: 12px;
+        margin: 10% 0%;
+        margin-right: 34%;
+        cursor: pointer;
+        width: 24%;
+      }
+
+      #heroBtn:active{
+        padding: 2%;
+       color: red;
+       border-radius: 12px;
+        margin: 10% 0%;
+        margin-right: 34%;
+        cursor: pointer;
+        width: 24%;
+      background-color: #e574746b;
+      }
+
+      #heroBtn:hover{
+        padding: 2%;
+       color: red;
+       border-radius: 12px;
+        margin: 10% 0%;
+        margin-right: 34%;
+        cursor: pointer;
+        width: 24%;
+        border: 4px solid rgb(246, 49, 49);
+      }
+
+      #two{
+        background-image:url(foodPics/burger-jpg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+      }
+
+      #three{
+        background-image:url(foodPics/frenchFries.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+      }
+
+      #four{
+        background-image:url(foodPics/ice-cream.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+      }
+
+
+
+      .secondSec{
+        height: 80vh;
+        
+      }
+
+      .packs{
+        width: 100%;
+        height: 25%;
+        background: white;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .box{
+       width: 16%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+      }
+
+      .box:hover{
+       width: 16%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       cursor: pointer;
+       border-bottom: 4px solid rgb(249, 43, 43);
+      }
+
+      .packsImg{
+       width: 80%;
+       height: 70%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+      }
+
+      .packName{
+        width: 80%;
+        height: 16%;
+        text-align: center;
+      }
+
+      .packOne img{
+         width: 50%;
+      }
+
+      .packTwo img {
+        width: 50%;
+      }
+
+      .packThree img{
+        width: 50%;
+      }
+
+      .packFour img{
+        width: 50%;
+      }
+
+      .packFive img{
+        width: 50%;
+      }
+
+      .aboutUs{
+        background-color: white;
+        height: 74%;
+        display: flex;
+      }
+
+      .leftAbout{
+       width: 40%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+
+      .rightAbout{
+        width: 60%;
+        display: flex;
+      }
+
+      .leftAbout img{
+        width: 73%;
+      }
+
+      .aboutInfo{
+        width: 78%;
+        height: 83%;
+        margin: 6%;
+        display: flex;
+       flex-direction: column;
+      }
+
+      .aboutInfo h1{
+        font-size: 336%;
+      }
+
+      .aboutInfo p{
+        width: 73%;
+        margin: 3% 0%;
+      }
+
+     #aboutUs{
+    width: 20%;
+    padding: 1%;
+    margin-top: 3%;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 14px;
+    cursor: pointer;
+     }
+
+     #aboutUs:hover{
+    width: 20%;
+    padding: 1%;
+    margin-top: 3%;
+    color: white;
+    background-color: rgb(34, 4, 64);
+    border-radius: 14px;
+    cursor: pointer;
+     }
+
+      #aboutUs:active{
+    width: 20%;
+    padding: 1%;
+    margin-top: 3%;
+    color: white;
+    background-color:rebeccapurple;;
+    border-radius: 14px;
+    cursor: pointer;
+     }
+
+
+     .thirdSec{
+      background-color:#f5ecee;
+      height: 200%;
+      display: flow-root;
+     }
+
+     .anyDayOffers{  
+    width: 83%;
+    margin: auto;
+    margin-top: 7%;
+    height: 13%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     }
+
+     .offerBox{
+    height: 85%;
+    width: 31%;
+    border-radius: 12px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 1px 5px 35px #e0748b; 
+     }
+
+
+     .offerBox:hover{
+    height: 85%;
+    width: 31%;
+    border-radius: 12px;
+    display: flex;
+    cursor: pointer;
+    border: 3px solid red;
+   
+     }
+
+
+     .SpecialCombo{
+    margin: auto;
+    width: 83%;
+    height: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     }
+
+     .comboBox{
+    width: 48%;
+    height: 87%;
+    border-radius: 14px;
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 5px 35px #e0748b; 
+     }
+
+      .comboBox:hover{
+    width: 48%;
+    height: 87%;
+    border-radius: 14px;
+    display: flex;
+    background-color: white;
+    border: 3px solid red;
+     }
+
+
+    .offerLeft{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .offerRight{
+    height: 100%;
+    width: 45%;  
+    display: flex;
+    justify-content: center;
+    align-items: center
+    }
+
+     .offerLeft p{
+      color: #767272;
+     }
+
+     .offerRight img{
+       width: 60%;
+       border-radius: 14px;
+     }
+
+     #offer1{
+    background-color: red;
+    padding: 3%;
+    width: 43%;
+    color: white;
+    border-radius: 14px;
+    margin-top: 12%;
+    text-align: center;
+    font-weight: bolder;
+     }
+
+     .offer1{
+      background-color: white;
+     }
+
+     #offer2{
+    background-color: yellow;
+    padding: 3%;
+    width: 43%;
+    color: black;
+    border-radius: 14px;
+    margin-top: 12%;
+    text-align: center;
+    font-weight: bolder;
+     }
+
+     .offer2{
+      background-color: red;
+      color: white;
+     }
+
+     .offer2:hover{
+      background-color: red;
+      color: white;
+      border: 3px solid black;
+     }
+
+
+     #white{
+      color: white;
+     }
+
+
+     .leftCombo{
+       width: 55%;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+     }
+
+    .leftCombo p{
+      color: #767272;
+      margin: 2% 0%;
+    }
+
+    .leftCombo div{
+    color: red;
+    font-size: 200%;
+    font-weight: bolder;
+    }
+
+    .rightCombo{
+       width: 45%;  
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+
+     .rightCombo img{
+      width: 55%;
+     }
+
+     .banner{
+      background-image: url(banner/banner1.jpg);
+      height: 16%;
+      background-size: contain;
+      margin-top: 6%;
+     }
+
+     #heading{
+      text-align: center;
+      font-size: 400%;
+      margin-top: 6%;
+     }
+
+     #grey{
+     color: gray;
+     text-align: center;
+     margin: 2% 0%;
+     }
+
+/* testimonial slider */
+
+  html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .mySwiperTwo {
+       width: 34%;
+       height: 27%;
+       padding-top: 50px;
+       padding-bottom: 50px;
+      }
+
+      .testimonialSlide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        border-radius: 18px;
+      }
+
+      .testimonialSlide img {
+        display: block;
+        width: 100%;
+      }
+
+      .reviewStars{
+       height: 20%;
+       color: yellow;
+       display: flex;
+       align-items: center;
+      }
+
+      .black{
+        color: black;
+      }
+
+      #customeMsg{
+        text-align: start;
+      }
+
+      .reviewMsg{
+       height: 55%;
+       width: 90%;
+       margin: auto;
+       font-size: 90%;
+      }
+
+      .profile{
+       height: 25%;
+      }
+
+      .profile-pic{
+        width: 24%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: url(people/1.png);
+        background-size: cover;
+        background-position: center;
+        width: 16%;
+        margin-left: 5%;
+      }
+
+      .profile-picOne{
+        width: 24%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: url(people/2.png);
+        background-size: cover;
+        background-position: center;
+        width: 16%;
+        margin-left: 5%;
+      }
+
+      .profile-picTwo{
+         width: 24%;
+        height: 100%;
+        border-radius: 50%;
+        background-image: url(people/3.png);
+        background-size: cover;
+        background-position: center;
+        width: 16%;
+        margin-left: 5%;
+      }
+
+
+      .fourthSec{
+        height: 135vh;
+        background-color: white;
+        display: flow-root;
+      }
+
+      .FavouriteItems{
+        height: 10%;
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .items4{
+       width: 15%;
+       height: 50%;
+       border-radius: 14px;
+       color: rgb(253, 248, 248);
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 100%;
+      }
+
+      .All{
+        background-color: red;
+      }
+
+      #content4{
+        margin-left: 4%;
+      }
+
+      .rest{
+        color: red;
+        
+      }
+
+      .special{
+       height: 45%;
+       margin: auto;
+       width: 80%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+      }
+
+      .specialItems{
+        height: 100%;
+        width: 30%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 14px;
+        }
+
+
+      .pic4{
+       width: 80%;
+       margin: auto;
+       margin-top: 12%;
+       height: 45%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+
+      .pic4 img{
+        width: 65%;
+      }
+
+      .heading4{
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+      }
+
+      .review4{
+       display: flex;
+       width: 90%;
+       margin: auto;
+       margin-top: 2%;
+       color: #f5b560;
+      }
+
+      .para4{
+       width: 90%;
+       margin: auto;
+       margin-top: 2%;
+       color: #6e6c6c;
+      }
+
+      .order4{
+       width: 90%;
+       margin: 3% 5%;
+       border-radius: 11px;
+       padding: 2%;
+       background-color: #e20707;
+       color: white;
+       border: transparent;
+       }
+
+       .order4:hover{
+       width: 90%;
+       margin: 3% 5%;
+       border-radius: 11px;
+       padding: 2%;
+       background-color: #e20707;
+       border: 3px solid black;
+       color: white;
+       cursor: pointer;
+       }
+
+       .details{
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 14%;
+       background-color: #d81010;
+       height: 9%;
+       align-items: center;
+       color: white;
+       }
+
+       .box4{
+        display: inline-block;
+       }
+
+       .details2{
+        display: flex;
+        width: 15%;
+       }
+
+       #clock{
+        width: 18%;
+        font-size: 181%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+     
+
+      .downloadOption{
+        width: 90%;
+        margin-top: 5%;
+        height: 17%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #googlePlay{
+       background-image: url(store/play.jpg);
+       background-size: cover;
+       height: 80%;
+       width: 48%;
+      }
+
+      #AppStore{
+       background-image: url(store/appStore.jpg);
+       background-size: cover;
+       height: 80%;
+       width: 48%;
+      }
+
+        footer{
+        height: 45vh;
+        background-color: #280b0b;
+        display: flex;
+       }
+
+       .footerBox{
+        width: 20%;
+        display: flex;
+        height: 85%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+       }
+
+      .footerLogo{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+       
+      .footerLogo img{
+        width: 40%;
+      }
+
+      .footerH1{
+        font-size: 145%;
+      }
+
+      .footerItems li a{
+        color: white;
+      }
+
+      .copyright{
+        border-top: 1px solid wheat;
+        height: 5%;
+       background-color: #280b0b;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: wheat;
+       flex-direction: column;
+
+      }
+    #menu{
+      display: none;
+    }
+
+    #close{
+      display: none;
+    }
+
+
+    @media (max-width:800px){
+      
+
+      body{
+        overflow-x: hidden;
+        width: 100vw;
+      }
+
+       #close{
+      display:block;
+       font-size: 242%;
+       width: 84%;
+       text-align: end;
+    }
+
+      #menu{
+       display: inline-block;
+        font-size: 213%;
+        margin: 4%;
+        margin-right: 11%;
+        display: flex;
+        align-items: center;
+      }
+
+
+    .listItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 231px;
+        top: 0;
+        border-radius: 28px;
+      }
+     
+      .logo{
+        width: 55%;
+      }
+
+      #heroHead{
+       font-size: 99%;
+       margin-top: -45%;
+       width: 129%;
+      }
+
+      #heroLetter{
+       font-size: 45%;
+       margin: 0% 29%;
+      }
+
+      #heroBtn{
+        width: 71%;
+        font-size: 57%;
+        margin: 10% 1%;
+        padding: 3%;
+      }
+
+       #heroBtn:hover{
+        width: 71%;
+        font-size: 57%;
+        margin: 10% 1%;
+        padding: 3%;
+      }
+
+      .right img{
+        width: 60%;
+        margin-right: 14%;
+        margin-top: -28px;
+      }
+
+      
+
+      nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+      }
+
+      .logo{
+          width: 78%;
+          height: 71%;
+      }
+        
+      .packs{
+         height: 25%;
+         background: white;
+         display: flex;
+         justify-content: space-evenly;
+         white-space: nowrap;
+         overflow-x: auto;
+         overflow-y: hidden;
+         width: 100vw;
+    }
+
+
+  .box{
+        min-width: 85px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin: 1% 6%;
+   }
+
+   .box:hover{
+    min-width: 85px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1% 6%;
+   }
+   
+   .secondSec {
+    height: 69vh;
+   }
+ 
+   .leftAbout img{
+       width: 96%;
+        margin-top: -36%;
+      }
+
+      .aboutInfo h1{
+        font-size: 147%;
+        margin-top: 36%;
+      }
+
+      .aboutInfo p{
+       font-size: 47%;
+      }
+
+       .aboutInfo h3{
+        font-size: 73%;
+       }
+
+      #aboutUs{
+      font-size: 67%;
+      width: 45%;
+      padding: 3%;
+      margin-top: 9%;
+
+      }
+
+      #aboutUs:hover{
+       font-size: 67%;
+        width: 45%;
+        padding: 3%;
+        margin-top: 9%;
+      }
+
+      .anyDayOffers{
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+      }
+
+      .offerBox{
+       min-width: 190px;
+       margin: 0% 8%;
+       display: flex;
+      }
+
+      .offerBox h1{
+       font-size: 78%;
+      }
+    
+       .offerBox p{
+      font-size: 71%;
+       }
+
+      .packsImg img{
+      width: 100%;
+        }
+      .SpecialCombo{
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      margin-top: 5%;
+      }
+
+      .comboBox{
+      min-width: 258px;
+      display: flex;
+      margin: 0% 3%;
+      }
+
+      .leftCombo h1{
+      font-size: 93%;
+      }
+
+      .leftCombo p{
+      font-size: 68%;
+      }
+
+     #heading{
+      font-size: 139%;
+      width: 80%;
+      margin: auto;
+      margin-top: 10%;
+     }
+     
+    #grey{
+     font-size: 74%;
+     width: 90%;
+     margin: auto;
+    }
+
+    .mySwiperTwo{
+     width: 90%;
+     margin: auto;
+    }
+
+    #customeMsg{
+      font-size: 72%;
+    }
+
+    .profile{
+      height: 17%;
+    }
+
+    .profile-pic{
+     width: 17%;
+    }
+
+    .FavouriteItems{
+      font-size: 80%;
+      font-weight: bolder;
+      width: 90%;
+      margin: auto;
+    }
+
+    .special{
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+
+ 
+
+    .para4{
+      width: 80%;
+      margin: auto;
+      font-size: 71%;
+    }
+
+       .specialItems{
+      min-width: 273px;
+      margin: 0% 11%;
+      height: 95%;
+      white-space: normal;
+    }
+
+    .details{
+      height: 6%;
+      font-size: 35%;
+    }
+
+    .box4{
+     font-size: 132%;
+     width: 22%;
+     margin: auto;
+    }
+
+    footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 43%;
+    }
+
+    .downloadOption{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #googlePlay{
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #AppStore{
+      width: 100%;
+      margin-top: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .copyright{
+    border-top: 1px solid wheat;
+    height: 5%;
+    background-color: #280b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    flex-direction: column;
+    font-size: 50%;
+    }
+    }
+
+
+
+    @media(min-width:600px) and (max-width:800px)
+    {
+       #menu{
+       display: inline-block;
+       font-size: 242%;
+       margin: 2% 8%;
+      }
+
+      #close{
+      display: inline-block;
+       font-size: 242%;
+       margin: 4%;
+    }      
+
+         .listItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 377px;
+        top: 0;
+        border-radius: 28px;
+      }
+
+      .logo{
+       width: 41%;
+      }
+
+        #heroHead{
+         font-size: 130%;
+      }
+
+      #heroLetter{
+        font-size: 70%;
+      }
+
+      #heroBtn{
+          width: 40%;
+      }
+
+       .aboutInfo h1{
+         font-size: 167%;
+         margin-top: 17%;
+      }
+
+      .aboutInfo p{
+        font-size: 80%;
+      }
+
+       .aboutInfo h3{
+        font-size: 70%;
+       }
+
+      #aboutUs{
+       font-size: 63%;
+       width: 30%;
+      }
+
+       footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 66%;
+    }
+
+     .downloadOption{
+      display: flex;
+      flex-direction: column;
+      height: 27%;
+    }
+
+    .details{
+      height: 6%;
+      font-size: 53%;
+    }
+   
+
+    }
+
+    @media(min-width:801px) and (max-width:1000px)
+    {
+      #heroHead{
+       font-size: 142%;
+      }
+
+      #heroLetter{
+       font-size: 76%;
+      }
+
+      .aboutInfo h1 {
+      font-size: 225%;
+      margin-top: 6%;
+     }
+
+     .aboutInfo h3{
+      font-size: 90%;
+     }
+
+     .offerLeft h1{
+      font-size: 100%;
+     }
+
+     .leftCombo h1{
+      font-size: 100%;
+     }
+
+     #customeMsg{
+      text-align: start;
+      font-size: 77%;
+     }
+
+     .heading4 {
+      width: 90%;
+      margin: auto;
+      margin-top: 4%;
+      font-size: 99%;
+     }
+
+    .details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14%;
+    background-color: #d81010;
+    height: 9%;
+    align-items: center;
+    color: white;
+    font-size: 78%;
+    }
+
+    #googlePlay {
+    background-image: url(store/play.jpg);
+    background-size: cover;
+    height: 51%;
+    width: 48%;
+   }
+
+   
+   #AppStore {
+    background-image: url(store/appStore.jpg);
+    background-size: cover;
+    height: 51%;
+    width: 48%;
+   }
+    }
+   
