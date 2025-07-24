@@ -89,7 +89,24 @@
       tlOne.reverse();
      })
 
+      gsap.from(".box4",{
+        opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".box4",
+        start:"top 100%",
+        end:"top 80%",
+        scrub:2
+       }
       })
+
+      })
+
+
  
       // computer screen
     
@@ -191,6 +208,19 @@
        }
      })
 
+      tlTwo.from(".banner",{
+        scale:0,
+        ease:"power2.out",
+        scrollTrigger:{
+          scroller:"body",
+          trigger:".banner",
+          start:"top 80%",
+          end:"top 30%",
+          scrub:2
+        }
+      })
+
+
       tlTwo.from(".items4",{
        opacity:0,
        y:50,
@@ -251,4 +281,28 @@
        }
      })
 
+
+     let mm2 = gsap.matchMedia();
+
+     mm2.add("(min-width:801px)",()=>{
+        gsap.from(".box4",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".box4",
+        start:"top 80%",
+        end:"top 45%",
+        scrub:2
+       }
+     })
+     })
+   
+
+
+
     })
+    
