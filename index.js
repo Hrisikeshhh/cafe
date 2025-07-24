@@ -90,11 +90,165 @@
      })
 
       })
-
-
-
-
-
-
+ 
+      // computer screen
     
+    let tlTwo = gsap.timeline();
+     tlTwo.from(".box",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".box",
+        start:"top 80%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
+    tlTwo.from(".leftAbout",{
+      opacity:0,
+      duration:0.4,
+      scrollTrigger:{
+        scroller:"body",
+        trigger:".leftAbout",
+        scrub:2,
+        start:"top 90%",
+         end:"top 40%"
+      }
+    })
+
+    tlTwo.from(".aboutInfo",{
+      opacity:0,
+      duration:0.4,
+      scrollTrigger:{
+        scroller:"body",
+        trigger:".aboutInfo",
+        scrub:2,
+        start:"top 90%",
+         end:"top 40%"
+      }
+    })
+
+   tlTwo.from(".aboutInfo h3",{
+      opacity:0,
+      x:30,
+      duration:0.4,
+      stagger:0.1,
+      scrollTrigger:{
+        scroller:"body",
+        trigger:".aboutInfo h3",
+        scrub:2,
+        start:"top 90%",
+         end:"top 40%"
+      }
+    })
+ 
+    tlTwo.from("#aboutUs",{
+    opacity:0,
+      x:40,
+      duration:0.4,
+      stagger:0.1,
+      scrollTrigger:{
+        scroller:"body",
+        trigger:".aboutInfo h3",
+        scrub:2,
+        start:"top 90%",
+        end:"top 40%"
+      }
+    })
+
+     tlTwo.from(".offerBox",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".offerBox",
+        start:"top 80%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
+       tlTwo.from(".comboBox",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".comboBox",
+        start:"top 80%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
+      tlTwo.from(".items4",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".items4",
+        start:"top 70%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+    
+      tlTwo.from(".x1",{
+       opacity:0,
+       x:-50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".x1",
+        start:"top 80%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
+      tlTwo.from(".x2",{
+       opacity:0,
+       x:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".x2",
+        start:"top 80%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
+     tlTwo.from(".y",{
+       opacity:0,
+       y:50,
+       duration:0.26,
+       stagger:0.2,
+       ease:"power2.out",
+       scrollTrigger:{
+        scroller:"body",
+        trigger:".y",
+        start:"top 70%",
+        end:"top 30%",
+        scrub:2
+       }
+     })
+
     })
