@@ -1045,12 +1045,14 @@
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
+        height: 10%;
       }
 
       .offerBox{
-       min-width: 190px;
-       margin: 0% 8%;
-       display: flex;
+        min-width: 176px;
+        margin: 0% 3%;
+        display: flex
+
       }
 
       .offerBox h1{
@@ -1065,17 +1067,18 @@
       width: 100%;
         }
       .SpecialCombo{
-      width: 100%;
-      overflow-x: auto;
-      overflow-y: hidden;
-      white-space: nowrap;
-      margin-top: 5%;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        margin-top: 5%;
+        height: 12%;
       }
 
       .comboBox{
-      min-width: 258px;
-      display: flex;
-      margin: 0% 3%;
+        min-width: 330px;
+        display: flex;
+        margin: 0% 2%;
       }
 
       .leftCombo h1{
