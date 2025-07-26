@@ -302,7 +302,14 @@
      })
    
 
+     let aboutUsBtn = document.querySelector("#aboutUs");
+     
+     aboutUsBtn.addEventListener("click",()=>{
+      window.location.href = "about.html";
+     })
 
 
     })
+
+    
     

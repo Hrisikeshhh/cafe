@@ -1,0 +1,451 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+        position: relative;
+        height: 100%;
+      }
+  nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+  }
+
+.leftNav{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.midNav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.rightNav{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 138%;
+    color: #fa3b3b;
+}
+
+
+  .logo{
+    background-image: url(logo/logo.modified.jpg);
+    width: 19%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .listItems{
+    display: flex;
+    align-items: center;
+    width: 76%;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+.items a{
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+  .items a:hover{
+    color: #e21616;
+    transition: 0.3s ease ;
+    font-size: 100%;
+    font-size: 125%;
+    cursor: pointer;
+  }
+
+  .secondSec{
+    margin-top: 8%;
+  }
+
+  .about{
+    text-decoration: underline 4px solid red;
+  }
+   .aboutUs{
+        background-color: white;
+        height: 74%;
+        display: flex;
+      }
+
+      .leftAbout{
+       width: 40%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+
+      .rightAbout{
+        width: 60%;
+        display: flex;
+      }
+
+      .leftAbout img{
+        width: 73%;
+      }
+
+      .aboutInfo{
+        width: 78%;
+        height: 83%;
+        margin: 6%;
+        display: flex;
+       flex-direction: column;
+      }
+
+      .aboutInfo h1{
+        font-size: 336%;
+      }
+
+      .aboutInfo p{
+        width: 73%;
+        margin: 3% 0%;
+      }
+  
+
+
+      #menu{
+       display: none;
+    
+      }
+
+      #close{
+      display: none;
+      
+    }    
+    
+    .thirdSec{
+      height: 65%;
+    }
+
+    .infoOuter{
+      border: 5px solid red;
+      height: 100%;
+      width: 85%;
+      margin: auto;
+      border-radius: 19px;
+    }
+
+    .infoOuter h1{
+    text-align: center;
+    font-size: 440%;
+    margin-top: 4%;
+    }
+
+    .infoOuter p{
+     width: 78%;
+     margin: auto;
+     font-size: 176%;
+     margin-top: 3%;
+    }
+
+    .fourthSec{
+      height: 60%;
+      margin-top: 5%;
+    }
+
+    .fourthSec h1{
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .outerEmployee{
+    height: 84%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    }
+
+    .box{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .pic{
+    border: 4px solid red;
+    border-radius: 14px;
+    width: 70%;
+    height: 65%;
+    }
+
+    .box p{
+     background-color: red;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    }
+
+
+    .box1{
+      background-image: url(employee.pic/chef.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .box2{
+      background-image: url(employee.pic/manager.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .box3{
+      background-image: url(employee.pic/WhatsApp\ Image\ 2025-07-26\ at\ 17.10.17_a193bb4f.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .box4{
+      background-image: url(employee.pic/server.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+     .box h1{
+     text-decoration: none;
+    }
+
+    .fifthSec{
+      height: 185vh;
+      background-color: #f5ecee;
+      display: flow-root;
+    }
+
+    .fifthSec h1{
+     text-decoration: underline;
+     text-align: center;
+    font-size: 250%;
+    margin-top: 2%;
+    }
+
+   
+
+    .outerRole{
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    }
+
+    .roleBox{
+    outline: 1px solid gray;
+    width: 90%;
+    margin: auto;
+    height: 23%;
+    border-radius: 14px;
+    background-color: white;
+    border: 3px solid red;
+    }
+
+
+   @media(max-width:800px)
+    {
+
+
+       #close{
+      display:block;
+       font-size: 242%;
+       width: 84%;
+       text-align: end;
+    }
+
+      #menu{
+       display: inline-block;
+        font-size: 213%;
+        margin: 4%;
+        margin-right: 11%;
+        display: flex;
+        align-items: center;
+      }
+
+         .listItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 231px;
+        top: 0;
+        border-radius: 28px;
+      }
+     
+      .leftAbout img{
+       width: 96%;
+        margin-top: -36%;
+      }
+
+      .aboutInfo h1{
+        font-size: 147%;
+        margin-top: 36%;
+      }
+
+      .aboutInfo p{
+       font-size: 47%;
+      }
+
+       .aboutInfo h3{
+        font-size: 73%;
+       }
+
+      .logo{
+       width: 41%;
+      }
+
+      .infoOuter h1{
+        text-align: center;
+        font-size: 134%;
+        margin-top: 4%;
+    }
+
+    .infoOuter p{
+        width: 78%;
+        margin: auto;
+        font-size: 133%;
+        margin-top: 8%;
+    }
+
+    .fourthSec {
+    height: 195vh;
+    margin-top: 9%;
+    }
+
+    .outerEmployee {
+    height: 84%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    }
+
+    .box {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+    }
+
+     @media(min-width:600px) and (max-width:800px)
+    {
+
+       #menu{
+       display: inline-block;
+       font-size: 242%;
+       margin: 2% 8%;
+      }
+
+      #close{
+      display: inline-block;
+       font-size: 242%;
+       margin: 4%;
+    }      
+
+         .listItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 377px;
+        top: 0;
+        border-radius: 28px;
+      }
+        .aboutInfo h1{
+         font-size: 167%;
+         margin-top: 17%;
+      }
+
+      .aboutInfo p{
+        font-size: 80%;
+      }
+
+       .aboutInfo h3{
+        font-size: 70%;
+       }
+
+       .infoOuter h1{
+    text-align: center;
+    font-size: 440%;
+    margin-top: 4%;
+    }
+
+    .infoOuter p{
+     width: 78%;
+     margin: auto;
+     font-size: 176%;
+     margin-top: 3%;
+    }
+    }
+    @media(min-width:715px) and (max-width:1040px)
+    {
+      .aboutInfo h1 {
+      font-size: 225%;
+      margin-top: 6%;
+     }
+
+     .aboutInfo h3{
+      font-size: 90%;
+     }
+
+     .infoOuter h1{
+    text-align: center;
+    font-size: 440%;
+    margin-top: 4%;
+    }
+
+    .infoOuter p{
+     width: 78%;
+     margin: auto;
+     font-size: 176%;
+     margin-top: 3%;
+    }
+    .fourthSec {
+        height: 207vh;
+        margin-top: 9%;
+    }
+
+    .outerEmployee {
+        height: 92%;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .box {
+        width: 45%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    }
