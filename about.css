@@ -255,8 +255,134 @@
     border-radius: 14px;
     background-color: white;
     border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 
+    .boxes{
+    width: 23%;
+    height: 85%;
+    border-radius: 20px;
+    border: 6px solid red;
+    }
+
+    .msg{
+    width: 62%;
+    height: 65%;
+    }
+
+    .msg h1{
+    font-size: 157%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    }
+
+    .msg p{
+    font-size: 118%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    }
+
+.details{
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 14%;
+       background-color: #d81010;
+       height: 9%;
+       align-items: center;
+       color: white;
+       }
+
+       .boxu{
+        display: inline-block;
+       }
+
+       .details2{
+        display: flex;
+        width: 15%;
+       }
+
+       #clock{
+        width: 18%;
+        font-size: 181%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+
+     
+
+      .downloadOption{
+        width: 90%;
+        margin-top: 5%;
+        height: 17%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #googlePlay{
+       background-image: url(store/play.jpg);
+       background-size: cover;
+       height: 80%;
+       width: 48%;
+      }
+
+      #AppStore{
+       background-image: url(store/appStore.jpg);
+       background-size: cover;
+       height: 80%;
+       width: 48%;
+      }
+
+        footer{
+        height: 45vh;
+        background-color: #280b0b;
+        display: flex;
+       }
+
+       .footerBox{
+        width: 20%;
+        display: flex;
+        height: 85%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+       }
+
+      .footerLogo{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+       
+      .footerLogo img{
+        width: 40%;
+      }
+
+      .footerH1{
+        font-size: 145%;
+      }
+
+      .footerItems li a{
+        color: white;
+      }
+
+      .copyright{
+        border-top: 1px solid wheat;
+        height: 5%;
+       background-color: #280b0b;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: wheat;
+       flex-direction: column;
+
+      }
 
    @media(max-width:800px)
     {
@@ -310,7 +436,7 @@
        }
 
       .logo{
-       width: 41%;
+        width: 55%;
       }
 
       .infoOuter h1{
@@ -318,6 +444,11 @@
         font-size: 134%;
         margin-top: 4%;
     }
+     
+      .logo{
+          width: 78%;
+          height: 71%;
+      }
 
     .infoOuter p{
         width: 78%;
@@ -326,12 +457,17 @@
         margin-top: 8%;
     }
 
-    .fourthSec {
+    .thirdSec{
+    height: 65%;
+    margin-top: 15%;
+   }
+
+    .fourthSec{
     height: 195vh;
-    margin-top: 9%;
+    margin-top: 35%;
     }
 
-    .outerEmployee {
+    .outerEmployee{
     height: 84%;
     display: flex;
     width: 90%;
@@ -339,7 +475,7 @@
     flex-direction: column;
     }
 
-    .box {
+    .box{
     width: 90%;
     height: 90%;
     display: flex;
@@ -347,8 +483,85 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-}
+  }
+
+    .boxes {
+    width: 23%;
+    height: 85%;
+    border-radius: 20px;
+    border: 6px solid red;
+    display: none;
+   }
+
+   .msg{
+    width: 83%;
+    height: 65%;
+   }
+
+   .msg h1{
+    font-size: 127%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+   }
+
+   .msg p{
+    font-size: 97%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
     }
+
+    .details{
+      height: 6%;
+      font-size: 35%;
+    }
+
+    .boxu{
+     font-size: 132%;
+     width: 22%;
+     margin: auto;
+    }
+
+    footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 43%;
+    }
+
+    .downloadOption{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #googlePlay{
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #AppStore{
+      width: 100%;
+      margin-top: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .copyright{
+    border-top: 1px solid wheat;
+    height: 5%;
+    background-color: #280b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    flex-direction: column;
+    font-size: 50%;
+    }
+    }
+
+
 
      @media(min-width:600px) and (max-width:800px)
     {
@@ -402,7 +615,28 @@
      font-size: 176%;
      margin-top: 3%;
     }
+
+      footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 66%;
     }
+
+     .downloadOption{
+      display: flex;
+      flex-direction: column;
+      height: 27%;
+    }
+
+    .details{
+      height: 6%;
+      font-size: 53%;
+    }
+   
+    }
+
+
     @media(min-width:715px) and (max-width:1040px)
     {
       .aboutInfo h1 {
@@ -426,12 +660,13 @@
      font-size: 176%;
      margin-top: 3%;
     }
-    .fourthSec {
+
+    .fourthSec{
         height: 207vh;
-        margin-top: 9%;
+        margin-top: 35%;
     }
 
-    .outerEmployee {
+    .outerEmployee{
         height: 92%;
         display: flex;
         width: 90%;
@@ -439,8 +674,8 @@
         flex-direction: column;
     }
 
-    .box {
-        width: 45%;
+    .box{
+        width: 87%;
         height: 90%;
         display: flex;
         flex-direction: column;
@@ -448,4 +683,34 @@
         justify-content: center;
         margin: auto;
     }
+
+    .boxes{
+    width: 23%;
+    height: 36%;
+    border-radius: 20px;
+    border: 6px solid red;
     }
+
+    .boxu{
+    font-size: 78%;
+    }
+
+   .details2{
+    width: 15%;
+    display: flex;
+    }
+
+    .leftNav {
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   }
+
+    .logo{
+        width: 60%;
+        height: 82%;
+    }
+
+  }
