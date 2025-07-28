@@ -38,7 +38,16 @@
       tlOne.reverse();
      })
 
+    
+
      let tl = gsap.timeline();
+
+     tl.from(".infoOuter p",{
+      x:100,
+      duration:0.7,
+      stagger:0.4,
+      opacity:0
+     })
 
      tl.from(".u1",{
       opacity:0,
@@ -176,9 +185,7 @@
     
      let desktop = gsap.matchMedia();
      desktop.add("(min-width:801px)",()=>{
-let tlTwo = gsap.timeline();
-
-    
+      let tlTwo = gsap.timeline();
       tlTwo.from(".infoOuter p",{
          x:100,
          duration:2,
