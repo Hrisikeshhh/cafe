@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    overflow-x: hidden;
   }
 
   html, body {
@@ -466,6 +465,7 @@
     .fourthSec{
     height: 195vh;
     margin-top: 35%;
+    overflow-x: hidden;
     }
 
     .outerEmployee{
