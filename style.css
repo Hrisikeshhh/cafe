@@ -86,7 +86,13 @@
     cursor: pointer;
   }
 
+  #lowerNav{
+  display: flex;
+  }
   
+  .l{
+    width: 40%;
+  }
 
 
   #firstSec{
@@ -923,6 +929,12 @@
         top: 0;
         border-radius: 28px;
       }
+
+      
+
+     .download{
+      font-size: 67%;
+     }
      
       .logo{
         width: 55%;
@@ -1372,6 +1384,12 @@
     overflow-x: auto;
     overflow-y: hidden;
    }
+
+
+    .download{
+      font-size: 100%;
+     }
+
 
  .offerBox {
     height: 85%;
