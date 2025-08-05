@@ -302,13 +302,53 @@
      })
    
 
+     let downloadMenu = document.querySelector(".download");
+     downloadMenu.addEventListener("click",()=>{
+      let link = document.createElement("a");
+      link.href = "logo/menuCard.jpg";
+      link.download = "logo/menuCard.jpg";
+      link.click();
+      document.body.removeChild(link);
+
+     })
+
+
      let aboutUsBtn = document.querySelector("#aboutUs");
      
      aboutUsBtn.addEventListener("click",()=>{
       window.location.href = "about.html";
      })
 
+     
+     
+     let productPage = document.querySelectorAll(".p");
+     
+     productPage.forEach((e)=> {
+      
+     e.addEventListener("click",()=>{
+      localStorage.setItem("productId",
+      e.dataset.id);
+      window.location.href="productDetail.html";
+     })
+     });
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+     
     })
 
     

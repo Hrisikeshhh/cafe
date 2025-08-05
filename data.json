@@ -1,0 +1,173 @@
+[
+    {
+        "id":"swiper1",
+        "img":"foodPics/chicken-bucket.avif",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"chicken bucket with 10 pieces ",
+        "description":"juicy chicken patty with extra butter",
+        "price":"14$",
+        "category":"chicken wings",
+        "type":"Type: non veg 🍗"
+    },
+    {
+        "id":"swiper2",
+        "img":"foodPics/burger.png.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"chicken burger with extra butter ",
+        "description":"juicy chicken burger ",
+        "price":"14$",
+        "category":"chicken burger",
+        "type":"Type: non veg 🍗"
+    },
+    {
+        "id":"swiper3",
+        "img":"foodPics/frenchFries.png",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"freshly cutted potato french fries",
+        "description":"buttered french fries",
+        "price":"14$",
+        "category":"French fries",
+        "type":"Type: veg 🥕"
+    },
+     {
+        "id":"swiper4",
+        "img":"foodPics/iceCream.png.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"7 different flavoured ice creams",
+        "description":"Sweet & sour iceCreams",
+        "price":"14$",
+        "category":"ice cream",
+        "type":"Type: Deserts🍨"
+    },
+    {
+        "id":"box1",
+        "img":"packs/wings Bucket.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"9 piece of buttered chicken wings",
+        "description":"sour and salty ",
+        "price":"14$",
+        "category":"chicken wings",
+        "type":"Type: non veg🍗"
+    },
+    {
+        "id":"box2",
+        "img":"packs/Burger.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"cheesy classic burger",
+        "description":"juicy chicken burger ",
+        "price":"14$",
+        "category":"chicken Burger",
+        "type":"Type: non veg🍗"
+    },
+     {
+        "id":"box3",
+        "img":"packs/superBox.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"full package, 2 chicken legs french fries pepsi" ,
+        "description":"juicy chicken burger ",
+        "price":"14$",
+        "category":"full pack",
+        "type":"Type: non veg🍗"
+    },
+    {
+        "id":"box4",
+        "img":"packs/winger combo.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"3 chicken leg, 1 pepsi",
+        "description":"juicy sour spicy chicken ",
+        "price":"14$",
+        "category":"full pack",
+        "type":"Type: non veg🍗"
+    },
+     {
+        "id":"box5",
+        "img":"packs/family pack.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"9 kfc style chicken pieces",
+        "description":"juicy sour spicy chicken ",
+        "price":"14$",
+        "category":"chicken leg",
+        "type":"Type: non veg🍗"
+    },
+    
+    {
+        "id":"1",
+        "img":"offers/burger.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"cheese Burst Burger ",
+        "description":"juicy chicken patty with melted cheese and fresh veggies",
+        "price":"19$",
+        "category":"Burger",
+        "type":"Type: non veg 🍗"
+    },
+    {
+        "id":"2",
+        "img":"offers/winger.jpg",
+        "reviews":"⭐⭐⭐⭐⭐",
+        "info":"Deep fried",
+        "description":"Deep fried chicken wings with souces",
+        "price":"40$",
+        "category":"Chicken wings ",
+        "type":"Type: non veg 🍗"
+    },
+    {
+        "id":"3",
+        "img":"offers/zuper box.jpg",
+        "reviews":"⭐⭐⭐⭐⭐",
+        "info":"burger, pepsi, fries",
+        "description":"Deep fried chicken, crispy cheesy burger, fresh cutted well fried fries",
+        "price":"40$",
+        "category":"full pack",
+        "type":"Type:  mixⓂ️"
+    },
+    {
+        "id":"4",
+        "img":"offers/combo duo.jpg",
+        "reviews":"⭐⭐⭐⭐⭐",
+        "info":"2 burger, 2 cold drink, a fresh potato fries pack ",
+        "description":"Crispy cheesy veg burger, healthy freshly cutted fries, 2 cold drinks",
+        "price":"28$",
+        "category":"full pack",
+        "type":"Type:  veg🥕"
+    },
+    {
+        "id":"5",
+        "img":"offers/familu pack duo.jpg",
+        "reviews":"⭐⭐⭐⭐⭐",
+        "info":"2 burger,10 pieces of wings, 2 cold drink, a fresh potato fries pack ",
+        "description":"Crispy cheesy chicken burger, fried buttered chicken wings, healthy freshly cutted fries, 2 cold drinks",
+        "price":"28$",
+        "category":"full pack",
+        "type":"Type: non veg 🍗"
+    },
+    {
+        "id":"special1",
+        "img":"specialDishes/burger.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"special recipes burger",
+        "description":"juicy sour special taste ",
+        "price":"99.9$",
+        "category":"burger",
+        "type":"Type: non veg🍗"
+    },
+     {
+        "id":"special2",
+        "img":"specialDishes/pizza.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"chicken Pizza special recipe",
+        "description":"special taste ",
+        "price":"99.9$",
+        "category":"pizza",
+        "type":"Type: non veg🍗"
+    },
+     {
+        "id":"special3",
+        "img":"specialDishes/Chicken MOMO.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"special chicken momo",
+        "description":"steamed momo with special taste ",
+        "price":"99.9$",
+        "category":"chicken momo",
+        "type":"Type: non veg🍗"
+    }
+]

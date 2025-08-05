@@ -19,7 +19,7 @@
            <i class="fa-solid fa-circle-xmark" id="close"></i>
            <li class="items home"><a href="index.html">Home</a></li>
            <li class="items"><a href="about.html">About</a></li>
-           <li class="items"><a>Find us</a></li>
+           <li class="items"><a href="findUs.html">Find us</a></li>
            <li class="items"><a>Menu</a></li>
            <li class="items"><a>Offers</a></li>
         </ul>
@@ -28,6 +28,7 @@
       <i class="fa-solid fa-user"></i>
     </div>
     <i class="fa-solid fa-bars" id="menu"></i>
+    <div class="download">download menu <i class="fa-solid fa-download"></i></div>
  </nav>
 
  <section id="firstSec">
@@ -44,7 +45,7 @@
             chicken Made with finest ingredients. Our crispy delights will
             keep you coming back for more. Order now and savor the goodness!
            </p>
-            <button id="heroBtn"> Order Now</button>
+            <button id="heroBtn" class="p" data-id="swiper1"> Order Now</button>
      </div>
            <div class="right">
                <img src="foodPics/chicken-bucket.avif" alt="chickenBucket">
@@ -61,7 +62,7 @@
                  Include in our mouthwatering fried chicken burger - crispy on the outside, juicy on the inside, and stacked with creamy sauces.
                  Made with the finest ingredients and crafted to satisfy every craving. Take a bite, feel the crunch, and taste the difference.
                  </p>
-                 <button id="heroBtn">Satisfy your craving</button>
+                 <button id="heroBtn" class="p" data-id="swiper2">Satisfy your craving</button>
             </div>
            <div class="right">
                  <img src="foodPics/burger.png.jpg" alt="burger">
@@ -78,7 +79,7 @@
            Freshly cut, double-fried to golden perfection, and seasonal just right - our 
            French fries are the perfect crispy companion to every meal.
            </p>
-            <button id="heroBtn"> Get yours now</button>
+            <button id="heroBtn" class="p" data-id="swiper3"> Get yours now</button>
            </div>
            <div class="right">
                <img src="foodPics/frenchfries.png" alt="chickenBucket">
@@ -96,7 +97,7 @@
             From gooey brownies to creamy ice cream, our desserts are the cherry on top
             of your meal.
            </p>
-            <button id="heroBtn"> Grab yours!</button>
+            <button id="heroBtn" class="p" data-id="swiper4"> Grab yours!</button>
            </div>
            <div class="right">
                <img src="foodPics/iceCream.png.jpg" alt="chickenBucket">
@@ -112,31 +113,31 @@
  <section class="secondSec">
    
 <div class="packs">
-    <div class="box">
+    <div class="box p" data-id="box1">
         <div class="packsImg packOne">
             <img src="packs/wings Bucket.jpg" alt="wings">
         </div>
         <p class="packName">Wings Bucket</p>
     </div>
-    <div class="box">
+    <div class="box p" data-id="box2">
         <div class="packsImg packTwo">
             <img src="packs/Burger.jpg" alt="burger">
         </div>
         <p class="packName">Burger</p>
     </div>
-    <div class="box">
+    <div class="box p" data-id="box3">
         <div class="packsImg packThree">
             <img src="packs/superBox.jpg" alt="super box">
         </div>
         <p class="packName">Super Box</p>
     </div>
-    <div class="box">
+    <div class="box p" data-id="box4">
         <div class="packsImg packFour"> 
             <img src="packs/winger combo.jpg" alt="combo">
         </div>
         <p class="packName">Winger combo</p>
     </div>
-    <div class="box">
+    <div class="box p" data-id="box5">
         <div class="packsImg packFive">
             <img src="packs/family pack.jpg" alt="familyPack">
         </div>
@@ -170,7 +171,7 @@
 
  <section class="thirdSec">
    <div class="anyDayOffers">
-    <div class="offerBox offer1">
+    <div class="offerBox offer1 p " data-id="1">
         <div class="offerLeft">
             <h1>Any Day Offers</h1>
             <p>krispy burger</p>
@@ -182,7 +183,7 @@
     </div>
 
 
-    <div class="offerBox offer2">
+    <div class="offerBox offer2 p" data-id="2">
         <div class="offerLeft">
             <h1>Any Day Offers</h1>
             <p id="white">krispy wings</p>
@@ -194,7 +195,7 @@
     </div>
 
 
-    <div class="offerBox offer1">
+    <div class="offerBox offer1 p" data-id="3">
         <div class="offerLeft">
             <h1>Any Day Offers</h1>
             <p >Zuper Box</p>
@@ -208,8 +209,8 @@
 
 
 
-   <div class="SpecialCombo">
-      <div class="comboBox">
+   <div class="SpecialCombo" >
+      <div class="comboBox p" data-id="4">
         <div class="leftCombo">
             <h1>Special Combo Duos</h1>
             <p>Crispy juicy Boldly delicious</p>
@@ -221,7 +222,7 @@
       </div>
 
 
-      <div class="comboBox">
+      <div class="comboBox p" data-id="5">
          <div class="leftCombo">
             <h1>Special Combo Duos</h1>
             <p>Crispy juicy Boldly delicious</p>
@@ -412,8 +413,7 @@
          <div class="reviewMsg">
             <p id="customeMsg">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cupiditate doloremque. Reprehenderit illo necessitatibus aut 
-                voluptatum tempore dolorum et illum quisquam, repudiandae nesciunt ullam sunt dolore 
-                 
+                voluptatum tempore dolorum et illum quisquam, repudiandae nesciunt ullam sunt dolore  
             </p>
          </div>
          <div class="profile">
@@ -495,7 +495,7 @@
         </div>
 
         <div class="special">
-           <div class="specialItems x1">
+           <div class="specialItems x1 "  >
               <div class="pic4">
                 <img src="specialDishes/burger.jpg" alt="burger">
               </div>
@@ -511,12 +511,12 @@
                 over great food!"
               </p>
               <h1 class="heading4">$99.9</h1>
-              <button class="order4">Order Now</button>
+              <button class="order4 p" data-id="special1">Order Now</button>
            </div>
 
 
 
-           <div class="specialItems y">
+           <div class="specialItems y ">
             <div class="pic4">
                 <img src="specialDishes/pizza.jpg" alt="pizza">
               </div>
@@ -532,7 +532,7 @@
                 over great food!"
               </p>
               <h1 class="heading4">$99.9</h1>
-              <button class="order4">Order Now</button>
+              <button class="order4 p" data-id="special2">Order Now</button>
            </div>
 
 
@@ -552,7 +552,7 @@
                 over great food!"
               </p>
               <h1 class="heading4">$99.9</h1>
-              <button class="order4">Order Now</button>
+              <button class="order4 p" data-id="special3">Order Now</button>
            </div>
         </div>
 
@@ -577,7 +577,7 @@
                <p><i class="fa-brands fa-whatsapp"></i> (021)889 - 0011</p>
             </div>
         </div>
-
+<!-- footer -->
         <footer>
           <div class="footerBox">
             <div class="footerLogo">
@@ -629,7 +629,7 @@
         </footer>
         <div class="copyright">
            <p><i class="fa-solid fa-copyright"></i>2025 Tucky Fried Chicken.All rights reserved.</p>
-           <p>Designed by [Hrisikesh]</p>
+           <p>Designed by [Hrisikesh Gogoi]</p>
         </div>
    </section>
 

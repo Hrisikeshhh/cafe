@@ -1,0 +1,59 @@
+[
+    {
+        "id":"RajMehra",
+        "img":"employee.pic/chef.jpg",
+        "heading":"Raj Mehra",
+        "one":"Raj mehra is a culinary artist with a deep passion for traditional Indian spices and international fried food techniques. His career is defined by precision, creativity, and a deep understanding of what makes people crave flavor",
+        "two":"✳️ Diploma in culinary arts - culinary Academy of India, Hyderabad",
+        "three":"✳️ B.Sc in Hotel Management - Institute of Hotel Management (IHM),Mumbai",
+        "four":"Past Experience",
+        "five":"⁕ Sous Chef - KFC India R&D Kitchen (4 years)",
+        "six":"⁕ Executive Chef - Royal Feast Restaurant, Delhi(3 years)",
+        "seven":"⁕ Founder - The spice Lab (specially kitchen for fried dishes"
+    },
+    {
+        "id":"anuSharma",
+        "img":"employee.pic/manager.jpg",
+        "heading":"Anu Sharma",
+        "one":"Anu sharma brings both warmth and discipline to her role as Branch Manager. With a strong grasp of operations and guest relations, She ensures the restaurant functions like a well-oiled machine.",
+        "two":"MBA in Hospitality Management - IHM Aurangbad (in collaboration with university of Huddersfield, UK)",
+        "three":"B.Com - Delhi University",
+        "four":"Past Experience",
+        "five":"⁕ Operation Executive - Barbeque Nation (2 years)",
+        "six":"⁕ Floor Management - Dominos's India (3 years)",
+        "seven":"⁕ Assistent Branch manager - Pizza Hut Express (2 years)"
+    },
+     {
+        "id":"NitaVerma",
+        "img":"employee.pic/desertspecialist.jpg",
+        "heading":"Anu Sharma",
+        "one":"Nita Verma is a dessert artisan with a passion for making every bite feel like a celebration. Known for balancing sweet notes with presentation, she crafts memorable finishes to every meal.",
+        "two":"Diploma in Patisserie – Lavonne Academy of Baking Science, Bangalore",
+        "three":"B.Sc. in Nutrition and Food Science – Mount Carmel College, Bangalore",
+       "four":"Past Experience",
+       "five":"⁕ Dessert Chef – Theobroma, Mumbai (2 years)",
+       "six":"⁕ Junior Pastry Chef – JW Marriott, Pune (2 years)",
+       "seven":"⁕ Freelance Baker – Nita’s Sweet Lab (Instagram home business)"
+    },
+    {
+        "id":"RahulDas",
+        "img":"employee.pic/server.jpg",
+        "heading":"Anu Sharma",
+        "one":"Rahul Das is the heart of the dining area—efficient, courteous, and always present with a positive vibe. With a deep understanding of guest service, he brings consistency and charm to every shift.",
+        "two":"Diploma in Food & Beverage Service – Institute of Hotel Management, Bhubaneswar",
+        "three":"Certification in Customer Experience – Udemy Online Course",
+        "four":"Past Experience",
+        "five":"⁕ Guest Attendant – Taj Vivanta, Kolkata (2 years)",
+        "six":"⁕ Wait Staff – Wow! Momo (1 year)",
+        "seven":"⁕ Intern – Radisson Blu (Food & Beverage division)"
+
+
+
+
+
+
+
+
+    }
+
+]

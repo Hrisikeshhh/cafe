@@ -291,6 +291,17 @@
         tlTwo.kill();
       };
      })   
+
+
+     let infoPage = document.querySelectorAll(".A");
+
+     infoPage.forEach(d => {
+      d.addEventListener("click",()=>{
+        localStorage.setItem("infoId",
+          d.dataset.id);
+          window.location.href = "aboutEmployee.html";
+      })
+     });
       
 
 

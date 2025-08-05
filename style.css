@@ -78,6 +78,14 @@
 
   }
 
+  .download{
+    display: flex;
+    align-items: center;
+    color: red;
+    width: 12%;
+    cursor: pointer;
+  }
+
   
 
 

@@ -180,6 +180,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     }
 
     .pic{
@@ -210,7 +211,7 @@
     }
 
     .box3{
-      background-image: url(employee.pic/WhatsApp\ Image\ 2025-07-26\ at\ 17.10.17_a193bb4f.jpg);
+      background-image: url(employee.pic/desertspecialist.jpg);
       background-size: cover;
       background-position: center;
     }
@@ -229,6 +230,7 @@
       height: 185vh;
       background-color: #f5ecee;
       display: flow-root;
+      overflow-x: hidden;
     }
 
     .fifthSec h1{
