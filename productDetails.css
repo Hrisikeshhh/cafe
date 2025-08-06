@@ -302,3 +302,456 @@
        flex-direction: column;
 
       }
+
+      #menu{
+       display: none;
+      
+      }
+
+      #close{
+      display: none;
+      
+    }      
+
+
+       @media (max-width:800px){
+      
+
+      body{
+        overflow-x: hidden;
+        width: 100vw;
+      }
+
+       #close{
+      display:block;
+       font-size: 242%;
+       width: 84%;
+       text-align: end;
+    }
+
+      #menu{
+       display: inline-block;
+        font-size: 213%;
+        margin: 4%;
+        margin-right: 11%;
+        display: flex;
+        align-items: center;
+      }
+
+
+    .listItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 231px;
+        top: 0;
+        border-radius: 28px;
+      }
+
+      
+
+     .download{
+      font-size: 70%;
+     }
+     
+      .logo{
+        width: 55%;
+      }
+
+      .right img{
+        width: 60%;
+        margin-right: 14%;
+        margin-top: -28px;
+      }
+
+
+      .product-pic{
+    width: 86%;
+    height: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 14px;
+    margin-top: 6%;
+    }
+
+    .outerBox {
+    width: 100%;
+    display: flex;
+    height: 55%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+      .rightDetail {
+    width: 90%;
+    height: 83%;
+    border-radius: 14px;
+    border: 1px solid white;
+   
+      }
+
+      #I {
+    font-size: 120%;
+    color: grey;
+}
+
+      #D {
+    font-size: 80%;
+    color: #c86666;
+    margin-top: 2%;
+}
+
+      nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+      }
+
+      .logo{
+          width: 78%;
+          height: 71%;
+      }
+     footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 43%;
+    }
+
+    .downloadOption{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #googlePlay{
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #AppStore{
+      width: 100%;
+      margin-top: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .copyright{
+    border-top: 1px solid wheat;
+    height: 5%;
+    background-color: #280b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    flex-direction: column;
+    font-size: 50%;
+    }
+
+    .buy {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 12%;
+    border: 2px solid red;
+    box-shadow: -15px -14px 59px red;
+    align-items: center;
+    overflow: visible;
+}
+
+   #cart {
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    cursor: pointer;
+}
+
+    #cart:active{
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+ #cart:hover{
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+   #buy {
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+
+  #buy:active{
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+
+  #buy:hover{
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+     .secondSec {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    height: 30%;
+    margin-top: 14%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 41%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+  .box1 {
+    height: 95%;
+    width: 20%;
+    border-radius: 14px;
+    box-shadow: 1px 3px 15px red;
+    display: inline-block;
+    min-width: 187px;
+    margin: 0% 3%;
+}
+  
+
+  
+   .firstMargin-top {
+    margin-top: 10%;
+    }
+
+  }
+@media(min-width:600px) and (max-width:800px)
+    {
+       #menu{
+       display: inline-block;
+       font-size: 242%;
+       margin: 2% 8%;
+      }
+
+      #close{
+      display: inline-block;
+       font-size: 242%;
+       margin: 4%;
+    }      
+
+         .listItems {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #f29090e0;
+        height: 384px;
+        position: fixed;
+        left: -378px;
+        width: 377px;
+        top: 0;
+        border-radius: 28px;
+      }
+
+      .logo{
+       width: 41%;
+      }
+
+    .details{
+        height: 6%;
+        font-size: 95%;
+    }
+      
+
+       footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 66%;
+    }
+
+     .downloadOption{
+      display: flex;
+      flex-direction: column;
+      height: 27%;
+    }
+
+    
+   
+
+    }
+
+@media(min-width:768px) and (max-width:1040px)
+   {
+
+      .footerBox {
+    width: 20%;
+    display: flex;
+    height: 85%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 146%;
+}
+
+   .outer p {
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    color: #6d6b6b;
+    font-size: 147%;
+}
+}
+
+
+@media(min-width:790px) and (max-width:1040px)
+{
+    .photo{
+    border: 2px solid red;
+    width: 55%;
+    margin: auto;
+    margin-top: 3%;
+    height: 31%;
+    border-radius: 16px;
+    }
+
+    
+      .product-pic{
+    width: 86%;
+    height: 83%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 14px;
+    margin-top: 6%;
+    }
+
+    .outerBox {
+    width: 100%;
+    display: flex;
+    height: 55%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+      .rightDetail {
+    width: 90%;
+    height: 83%;
+    border-radius: 14px;
+    border: 1px solid white;
+   
+      }
+
+    #I {
+        font-size: 203%;
+        color: grey;
+    }
+
+    #D {
+        font-size: 174%;
+        color: #c86666;
+        margin-top: 2%;
+    }
+
+    .midDetail{
+      font-size: 153%;
+    }
+
+      .buy {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    border: 2px solid red;
+    box-shadow: -15px -14px 59px red;
+    align-items: center;
+    overflow: visible;
+}
+
+    .first {
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 169px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+  
+    .box1 {
+    height: 100%;
+    width: 20%;
+    border-radius: 14px;
+    box-shadow: 1px 3px 15px red;
+    min-width: 310px;
+    margin: 0% 7%;
+}
+
+      nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+      }
+
+    
+
+      .footerBox {
+        width: 20%;
+        display: flex;
+        height: 85%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 117%;
+    }
+}
+    
