@@ -631,6 +631,21 @@
     font-size: 146%;
 }
 
+
+    #I {
+        font-size: 203%;
+        color: grey;
+    }
+
+    #D {
+        font-size: 174%;
+        color: #c86666;
+        margin-top: 2%;
+    }
+
+    .midDetail{
+      font-size: 153%;
+    }
    .outer p {
     width: 80%;
     margin: auto;

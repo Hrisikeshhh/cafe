@@ -2,11 +2,13 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   html, body {
         position: relative;
         height: 100%;
+        background-color: #f5ecee;;
       }
   nav{
     background-color: white;
@@ -73,137 +75,146 @@
     cursor: pointer;
   }
 
-  .findUs{
+  .menu{
     text-decoration: 4px solid red underline;
-
   }
 
-  .download{
+  .firstSec{
+   height: 36%;
+   margin-top: 2%;
+  }
+
+  .verticalScroll{
+     height: 100%;
     display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
     align-items: center;
-    color: red;
-    width: 12%;
+  }
+
+  .childBox{
+    border: 2px solid red;
+    min-width: 273px;
+    height: 93%;
+    margin: 0% 2%;
+    box-shadow: 1px -3px 39px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
     cursor: pointer;
   }
 
-
-
-  #head{
-    text-align: center;
-    font-size: 277%;
-    color: rebeccapurple;
-    box-shadow: 1px 3px 15px;
-    width: 30%;
+  .secondSec{
+    height: 385%;
+    background: white;
+    margin-top: 6%;
+    width: 85%;
     margin: auto;
     margin-top: 6%;
+    border-radius: 20px;
+    display: flow-root;
   }
 
-  .map{
-    outline: 1px solid;
-    height: 51%;
-    width: 80%;
+
+
+  .box{
+    
+    height: 8.5%;
+    width: 85%;
     margin: auto;
-    margin-top: 3%;
-    border-radius: 21px;
+    margin-bottom: 3%;
+    box-shadow: 1px 15px 20px red;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
   }
 
-  #menu{
-      display: none;
-    }
+  .one{
+    margin-top: 4%;
+  }
 
-  #close{
-      display: none;
-    }
+   .pic{
+    border-bottom: 4px solid red;
+    width: 24%;
+    height: 79%;
+    margin-left: 2%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 
-  #location{
-    width: 100%;
-    height: 100%;
-    border-radius: 19px;
-    box-shadow: 1px 3px 30px rebeccapurple;
-    }
-
-    .firstSec{
-     height: 160vh;
-    }
-
-    .locationInfo{
+  .pic img{
     width: 70%;
-    margin: auto;
-    font-size: 186%;
-    margin-top: 1%;
-    }
+    border-radius: 14px;
+  }
 
-    #info{
-    margin-top: 6%;
-    color: rebeccapurple;
-    }
+ .details{
+    height: 79%;
+    width: 60%;
+    border-radius: 14px;
+    margin-left: 1%;
+ }
 
-    .details{
-       display: flex;
-       justify-content: space-evenly;
-       margin-top: 14%;
-       background-color: #d81010;
-       height: 9%;
-       align-items: center;
-       color: white;
-       }
+ #name{
+    color: #da7878;
+    font-size: 240%;
+ }
 
-       .boxu{
-        display: inline-block;
-       }
+ #description{
+    color: gray;
+    font-size: 121%;
+ }
 
-       .details2{
-        display: flex;
-        width: 15%;
-       }
+ #price{
+    color: green;
+    font-size: 163%;
+    margin-top: 7%;
+ }
 
-       #clock{
-        width: 18%;
-        font-size: 181%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       }
+ #category{
+    color: gray;
+ }
 
-       #see{
-        width: 10%;
-        padding: 1%;
-        font-size: 109%;
-        margin-left: 15%;
-        margin-top: 3%;
-         border-radius: 14px;
-        background-color: #ad79e0;
-       color: white;
-       cursor: pointer
-       }
+ #type{
+     color: gray;
+ }
 
-       #see:hover{
-        width: 10%;
-        padding: 1%;
-        font-size: 109%;
-        margin-left: 15%;
-        margin-top: 3%;
-         border-radius: 14px;
-        background-color: rebeccapurple;
-       color: white;
-       cursor: pointer
-       }
 
-         #see:active{
-        width: 10%;
-        padding: 1%;
-        font-size: 109%;
-        margin-left: 15%;
-        margin-top: 3%;
-         border-radius: 14px;
-        background-color: rgb(50, 10, 89);
-       color: white;
-       cursor: pointer
-       }
+ .childPic{
+    border-bottom: 4px solid #ed8181;;
+    height: 64%;
+    width: 71%;
+    border-radius: 14px;
+ }
 
-     
+ .childDetail{
+    width: 71%;
+    height: 21%;
+    text-align: center;
+ }
 
-      .downloadOption{
+ .childDetail h1{
+    font-size: 118%;
+    margin-top: 3%;
+    color: #ed8181;
+ }
+
+ .childPic{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .childPic img{
+    width: 68%;
+    border-radius: 14px;
+ }
+
+   .downloadOption{
         width: 90%;
         margin-top: 5%;
         height: 17%;
@@ -212,7 +223,7 @@
         justify-content: space-between;
       }
 
-      #googlePlay{
+    #googlePlay{
        background-image: url(store/play.jpg);
        background-size: cover;
        height: 80%;
@@ -230,6 +241,7 @@
         height: 45vh;
         background-color: #280b0b;
         display: flex;
+        margin-top: 7%;
        }
 
        .footerBox{
@@ -272,7 +284,17 @@
 
       }
 
-       @media (max-width:800px){
+      #menu{
+       display: none;
+      
+      }
+
+      #close{
+      display: none;
+      
+    }      
+
+      @media (max-width:800px){
       
 
       body{
@@ -326,61 +348,85 @@
         margin-top: -28px;
       }
 
+      .firstSec {
+      height: 36%;
+      margin-top: 2%;
+      }
 
-
-      
-
-      nav{
-    background-color: white;
+      .childBox {
+    border: 2px solid red;
+    min-width: 178px;
+    height: 57%;
+    margin: 0% 2%;
+    box-shadow: 1px -3px 39px red;
     display: flex;
-    height: 71px;
-    position: sticky;
+    flex-direction: column;
     align-items: center;
-    top: 0;
-    z-index: 2;
-    box-shadow: 1px 3px 47px;
-      }
-
-      .logo{
-          width: 78%;
-          height: 71%;
-      }
-
-      #head{
-       font-size: 185%;
-        width: 66%;
-      }
-
-      .map{
-       height: 30%;
-       margin-top: 9%;
-      }
-
-      #info{
-       margin-top: 47%;
-      }
-
-      .locationInfo{
-        font-size: 123%;
-      }
-
-      #see{
-        width: 32%;
-        height: 5%;
-      }
-
-      .details{
-      height: 6%;
-      font-size: 35%;
-    }
-
-    .box4{
-     font-size: 132%;
-     width: 22%;
-     margin: auto;
-    }
-
+    justify-content: center;
+    border-radius: 14px;
+    cursor: pointer;
+  }
    
+    .childPic img {
+    width: 70%;
+    border-radius: 14px;
+  }
+
+  .childDetail h1 {
+    font-size: 95%;
+    margin-top: 3%;
+    color: #ed8181;
+  }
+
+  .secondSec {
+    height: 338%;
+    background: white;
+    margin-top: 6%;
+    width: 85%;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 20px;
+    display: flow-root;
+}
+
+   .box {
+    height: 7.8%;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 14%;
+    box-shadow: 1px 15px 20px red;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+  
+  #name {
+    color: #da7878;
+    font-size: 141%;
+}
+
+#description {
+    color: gray;
+    font-size: 92%;
+}
+
+#price {
+    color: green;
+    font-size: 119%;
+    margin-top: 7%;
+}
+
+#category {
+    color: gray;
+    font-size: 82%;
+}
+
+#type {
+    color: gray;
+    font-size: 85%;
+}
+
 
        footer{
       height: 29vh;
@@ -418,7 +464,6 @@
     flex-direction: column;
     font-size: 50%;
     }
-
     }
     @media(min-width:600px) and (max-width:800px)
     {
@@ -451,10 +496,6 @@
        width: 41%;
       }
       
-      .details{
-      height: 6%;
-      font-size: 53%;
-    }
 
        footer{
       height: 29vh;
@@ -471,34 +512,42 @@
    
     }
 
-     @media(min-width:801px) and (max-width:1000px)
-    {
-      .details {
+    @media(min-width:768px) and (max-width:1040px)
+   {
+
+      .footerBox {
+    width: 20%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 14%;
-    background-color: #d81010;
-    height: 9%;
+    height: 85%;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
     color: white;
-    font-size: 78%;
+    font-size: 146%;
+}
+   }
+
+   @media(min-width:790px) and (max-width:1040px)
+{
+   nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+      }
+
+        .footerBox {
+        width: 20%;
+        display: flex;
+        height: 85%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 117%;
     }
-
-    #googlePlay {
-    background-image: url(store/play.jpg);
-    background-size: cover;
-    height: 51%;
-    width: 48%;
-   }
-
-   
-   #AppStore {
-    background-image: url(store/appStore.jpg);
-    background-size: cover;
-    height: 51%;
-    width: 48%;
-   }
   }
-
-   
-    

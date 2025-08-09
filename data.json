@@ -169,5 +169,199 @@
         "price":"99.9$",
         "category":"chicken momo",
         "type":"Type: non veg🍗"
+    },
+     {
+        "id":"vegspringroll",
+        "img":"menu.food/vegspringroll.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"veg spring roll",
+        "description":"Served with chill garlic dip ",
+        "price":"₹100",
+        "category":"Roll",
+        "type":"Type:veg🥦"
+    },
+    {
+        "id":"periperi",
+        "img":"menu.food/peri peri chicken wings.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Peri Peri chicken wings",
+        "description":"Smoky spicy and tangy ",
+        "price":"₹250",
+        "category":"chicken wings",
+        "type":"Type:non veg🍗"
+    },
+    {
+        "id":"Paneer",
+        "img":"menu.food/paneerTikka.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Paneer Tikka skewers",
+        "description":"Chared grilled, marinated cottage cheese.",
+        "price":"₹250",
+        "category":"Paneer",
+        "type":"Type:veg🥦"
+    },
+     {
+        "id":"corn",
+        "img":"menu.food/sweetCorn.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Spicy Corn Chaat Cups",
+        "description":"sweetCorn with spicy tangy masala..",
+        "price":"₹80",
+        "category":"corn",
+        "type":"Type:veg🥦"
+    },
+    {
+        "id":"prawns",
+        "img":"menu.food/butter.prawn.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Butter garlic prawns",
+        "description":"Tossed in herbs and garlic butter",
+        "price":"₹180",
+        "category":"prawns",
+        "type":"Type:non veg🍗"
+    },
+     {
+        "id":"eggRice",
+        "img":"menu.food/eggRice.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Egg fried rice",
+        "description":"Wok-tossed with veggies and scrambled egg",
+        "price":"₹190",
+        "category":"Egg rice",
+        "type":"Type:non veg🍗"
+    },
+     {
+        "id":"biryani",
+        "img":"menu.food/biryani.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Chicken Biryani",
+        "description":"Fragnrant basmati, Slow cooked with chicken",
+        "price":"₹250",
+        "category":"biryani",
+        "type":"Type:non veg🍗"
+    },
+    {
+        "id":"Buddha bowl",
+        "img":"menu.food/buddhaBowl.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Buddha bowl(Vegan)",
+        "description":"Quinos, hummus, grilled veggies, tahini drizzle",
+        "price":"₹150",
+        "category":"rice",
+        "type":"Type:veg🥦"
+    },
+     {
+        "id":"classicPizza",
+        "img":"menu.food/bbqClassicPizza.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Classic Margherita Pizza",
+        "description":"Fresh Basil, mozzarella, tomato",
+        "price":"₹100",
+        "category":"pizza",
+        "type":"Type:veg🥦"
+    },
+     {
+        "id":"chickenBBQpizza",
+        "img":"menu.food/bbqChickenpizza.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"BBQ chicken pizza",
+        "description":"Smoky BBQ sauce, griffled chicken",
+        "price":"₹199",
+        "category":"pizza",
+        "type":"Type:non veg🍗"
+    },
+    {
+        "id":"brownie",
+         "img":"menu.food/brownie.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Classic choclate brownie",
+        "description":"With hot fudge and icecream",
+        "price":"₹100",
+        "category":"desert",
+        "type":"Type:veg🥦"
+
+    },
+     {
+        "id":"gulabjamun",
+         "img":"menu.food/gulabjamun.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"gulabjamun cheesecake",
+        "description":"Fusion of Indian and western delight",
+        "price":"₹90",
+        "category":"Sweet Dish",
+        "type":"Type:veg🥦"
+
+    },
+     {
+        "id":"Pasta",
+         "img":"menu.food/pasta.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Penne Alfredo pasta",
+        "description":"Creamy white sauce with herbs",
+        "price":"₹200",
+        "category":"pasta",
+        "type":"Type:veg🥦"
+
+    },
+     {
+        "id":"Arrabiata",
+         "img":"menu.food/ArrabiataPasta.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Spicy Arrabiata Pasta",
+        "description":"Fiary tomato Sauce, olives and chilli",
+        "price":"₹220",
+        "category":"pasta",
+        "type":"Type:veg🥦"
+
+    },
+    {
+        "id":"paneer",
+        "img":"menu.food/paneer Butter masala with naan.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Paneer butter masala with naan",
+        "description":"Rich creamy, and mildly spiced",
+        "price":"₹290",
+        "category":"paneer Curry",
+        "type":"Type:veg🥦"
+    },
+      {
+        "id":"ButterChicken",
+        "img":"menu.food/Butter chicken with jeera rice.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Butter chicken with jeera rice",
+        "description":"Classic north Indian favourite",
+        "price":"₹250",
+        "category":"Butter Chicken",
+        "type":"Type:non veg🍗"
+    },
+     {
+        "id":"greenCurry",
+        "img":"menu.food/ThaiGreenCurry.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"The green curry",
+        "description":"Served with jasmine rice",
+        "price":"₹180",
+        "category":"Green curry",
+        "type":"Type:veg🥦"
+    },
+     {
+        "id":"VegSandwich",
+        "img":"menu.food/Sandwich.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Grilled veg sandwich",
+        "description":"Loaded with veggies, cheese",
+        "price":"₹100",
+        "category":"Sandwich",
+        "type":"Type:veg🥦"
+    },
+     {
+        "id":"smashBurger",
+        "img":"menu.food/smashBurger.jpg",
+        "reviews":"⭐⭐⭐⭐",
+        "info":"Smash burger",
+        "description":"smashed burger",
+        "price":"₹150",
+        "category":"burger",
+        "type":"Type:veg🥦"
     }
 ]
