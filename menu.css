@@ -562,7 +562,7 @@
       .childBox {
     border: 2px solid red;
     min-width: 178px;
-    height: 57%;
+   height: 82%;
     margin: 0% 2%;
     box-shadow: 1px -3px 39px red;
     display: flex;
@@ -596,7 +596,7 @@
 }
 
    .box {
-    height: 7.8%;
+    height: 8.8%;
     width: 100%;
     margin: auto;
     margin-bottom: 14%;
