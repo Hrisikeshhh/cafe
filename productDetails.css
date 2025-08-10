@@ -74,13 +74,13 @@
   }
 
   .firstSec{
-    height: 134vh;
+    height: 200vh;
   }
 
   .outerBox{
     width: 100%;
     display: flex;
-    height: 55%;
+    height: 39%;
     align-items: center;
     justify-content: space-around;
   }
@@ -163,9 +163,10 @@
     width: 100%;
     height: 17%;
     border: 2px solid red;
-    box-shadow: -15px -14px 59px red;
+   box-shadow: -15px -14px 25px red;
     align-items: center;
     overflow: visible;
+    margin-top: 3%;
   }
 
   
@@ -313,6 +314,66 @@
       
     }      
 
+     .review-form {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .review-form input, .review-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 12px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+ .review-form button {
+      padding: 10px 20px;
+      background: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .review-form button:hover {
+      background: #219150;
+    }
+    .reviews {
+     min-width: 799px;
+    margin: 2rem auto;
+    margin-left: 1%;
+    border: 2px solid black;
+    }
+    .review {
+      background: #fff;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .review h4 {
+      margin: 0;
+      color: #333;
+    }
+    .review p {
+      margin: 0.5rem 0 0 0;
+    }
+    .clear-btn {
+      display: block;
+      margin: 1rem auto;
+      background: #e74c3c;
+    }
+
+    .reviews{
+      height: 564px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 12px;
+    }
+
 
        @media (max-width:800px){
       
@@ -380,10 +441,24 @@
     margin-top: 6%;
     }
 
+    .firstSec {
+       height: 174vh;
+}
+
+.review-form {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 21%;
+}
+
     .outerBox {
     width: 100%;
     display: flex;
-    height: 55%;
+    height: 32%;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -393,7 +468,7 @@
 
       .rightDetail {
     width: 90%;
-    height: 83%;
+    height: 83%;  
     border-radius: 14px;
     border: 1px solid white;
    
@@ -472,6 +547,20 @@
     box-shadow: -15px -14px 59px red;
     align-items: center;
     overflow: visible;
+}
+
+.reviews {
+    height: 564px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 12px;
+}
+
+.reviews {
+    min-width: 360px;
+    margin: 2rem auto;
+    margin-left: 1%;
+    border: 2px solid black;
 }
 
    #cart {
@@ -770,3 +859,218 @@
     }
 }
     
+
+@media(min-width:355px) and (max-width:379px)
+    {
+        
+    .firstSec {
+       height: 174vh;
+}
+
+.review-form {
+        max-width: 500px;
+        margin: auto;
+        background: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 42%;
+    }
+
+
+    .outerBox {
+    width: 100%;
+    display: flex;
+    height: 32%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+      .rightDetail {
+    width: 90%;
+    height: 83%;  
+    border-radius: 14px;
+    border: 1px solid white;
+   
+      }
+
+      #I {
+    font-size: 120%;
+    color: grey;
+}
+
+      #D {
+    font-size: 80%;
+    color: #c86666;
+    margin-top: 2%;
+}
+
+      nav{
+    background-color: white;
+    display: flex;
+    height: 71px;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px 3px 47px;
+      }
+
+      .logo{
+          width: 78%;
+          height: 71%;
+      }
+     footer{
+      height: 29vh;
+      background-color: #280b0b;
+      display: flex;
+      font-size: 43%;
+    }
+
+    .downloadOption{
+      display: flex;
+      flex-direction: column;
+    }
+
+    #googlePlay{
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #AppStore{
+      width: 100%;
+      margin-top: 2%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .copyright{
+    border-top: 1px solid wheat;
+    height: 5%;
+    background-color: #280b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    flex-direction: column;
+    font-size: 50%;
+    }
+
+    .buy {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 12%;
+    border: 2px solid red;
+    box-shadow: -15px -14px 59px red;
+    align-items: center;
+    overflow: visible;
+}
+
+.reviews {
+    height: 564px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 12px;
+}
+
+.reviews {
+    min-width: 360px;
+    margin: 2rem auto;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+
+   #cart {
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    cursor: pointer;
+}
+
+    #cart:active{
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+ #cart:hover{
+    width: 30%;
+    height: 59%;
+    border-radius: 14px;
+    color: #f24545;
+    font-size: 108%;
+    border: 4px solid red;
+    cursor: pointer;
+}
+
+   #buy {
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+
+  #buy:active{
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+
+  #buy:hover{
+      width: 30%;
+      height: 59%;
+      border-radius: 14px;
+      color: white;
+      background-color: #f24545;
+      cursor: pointer;
+  }
+        .secondSec {
+        height: 82vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 58%;
+    }
+.first {
+    height: 30%;
+    margin-top: 14%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    margin-top: 41%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+  .box1 {
+    height: 95%;
+    width: 20%;
+    border-radius: 14px;
+    box-shadow: 1px 3px 15px red;
+    display: inline-block;
+    min-width: 187px;
+    margin: 0% 3%;
+}
+  
+
+  
+   .firstMargin-top {
+    margin-top: 10%;
+    }
+  
+    }

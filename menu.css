@@ -382,7 +382,7 @@
     height: 338%;
     background: white;
     margin-top: 6%;
-    width: 85%;
+    width: 92%;
     margin: auto;
     margin-top: 6%;
     border-radius: 20px;
@@ -391,7 +391,7 @@
 
    .box {
     height: 7.8%;
-    width: 85%;
+    width: 100%;
     margin: auto;
     margin-bottom: 14%;
     box-shadow: 1px 15px 20px red;
@@ -551,3 +551,86 @@
         font-size: 117%;
     }
   }
+
+  @media(min-width:355px) and (max-width:379px)
+    {
+       .firstSec {
+      height: 36%;
+      margin-top: 2%;
+      }
+
+      .childBox {
+    border: 2px solid red;
+    min-width: 178px;
+    height: 57%;
+    margin: 0% 2%;
+    box-shadow: 1px -3px 39px red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+   
+    .childPic img {
+    width: 70%;
+    border-radius: 14px;
+  }
+
+  .childDetail h1 {
+    font-size: 95%;
+    margin-top: 3%;
+    color: #ed8181;
+  }
+
+  .secondSec {
+    height: 338%;
+    background: white;
+    margin-top: 6%;
+    width: 92%;
+    margin: auto;
+    margin-top: 6%;
+    border-radius: 20px;
+    display: flow-root;
+}
+
+   .box {
+    height: 7.8%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 14%;
+    box-shadow: 1px 15px 20px red;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+  
+  #name {
+    color: #da7878;
+    font-size: 141%;
+}
+
+#description {
+    color: gray;
+    font-size: 92%;
+}
+
+#price {
+    color: green;
+    font-size: 119%;
+    margin-top: 7%;
+}
+
+#category {
+    color: gray;
+    font-size: 82%;
+}
+
+#type {
+    color: gray;
+    font-size: 85%;
+}
+
+    }

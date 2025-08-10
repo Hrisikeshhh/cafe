@@ -81,6 +81,61 @@ let productPage = document.querySelectorAll(".p");
 
 
 
+     window.onload = function () {
+      displayReviews();
+    }
+
+    function addReview() {
+      const name = document.getElementById('name').value.trim();
+      const comment = document.getElementById('comment').value.trim();
+
+      if (name === '' || comment === '') {
+        alert('Please fill in both fields!');
+        return;
+      }
+
+      const review = {
+        name: name,
+        comment: comment,
+ date: new Date().toLocaleString()
+      };
+
+      let reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+      reviews.push(review);
+      localStorage.setItem('reviews', JSON.stringify(reviews));
+
+      document.getElementById('name').value = '';
+      document.getElementById('comment').value = '';
+
+      displayReviews();
+    }
+
+    function displayReviews() {
+      const container = document.getElementById('reviewsContainer');
+      const reviews = JSON.parse(localStorage.getItem('reviews')) || [];
+
+      container.innerHTML = '';
+
+      if (reviews.length === 0) {
+        container.innerHTML = '<p style="text-align:center;">No reviews yet. Be the first to leave one!</p>';
+        return;
+      }
+reviews.forEach(review => {
+        const div = document.createElement('div');
+        div.className = 'review';
+         div.style.height = "150px";
+        div.innerHTML = `
+          <h4>${review.name} <small style="font-size: 12px; color: #777;">(${review.date})</small></h4>
+          <p>${review.comment}</p>
+        `;
+       
+        container.appendChild(div);
+      });
+    }
+
+
+
+
 
 
 
