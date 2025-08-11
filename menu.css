@@ -331,9 +331,7 @@
         top: 0;
         border-radius: 28px;
       }
-
       
-
      .download{
       font-size: 70%;
      }
@@ -347,13 +345,13 @@
         margin-right: 14%;
         margin-top: -28px;
       }
-
-      .firstSec {
+               
+      .firstSec{
       height: 36%;
       margin-top: 2%;
       }
 
-      .childBox {
+      .childBox{
     border: 2px solid red;
     min-width: 178px;
     height: 63%;
